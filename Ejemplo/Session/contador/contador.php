@@ -2,6 +2,7 @@
  <?php
  /** Permite realizar el conteo de visitas de un cliente web */
 
+ //Creas la sesion
  session_start();
 
  if (!isset($_SESSION['counter'])) {
